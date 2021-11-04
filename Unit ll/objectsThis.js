@@ -2,7 +2,7 @@ const myObject = {
     name: "Danyael",
     age: 21,
     greeting: function(message){
-        console.log(`This is equal to: ${JSON.stringify(this)} `);
+        console.log(`This is equal to: ${JSON.stringify(this)} `);   
         console.log(`${message} I'm ${this.name} and I'm ${this.age}`);
     },
 };
